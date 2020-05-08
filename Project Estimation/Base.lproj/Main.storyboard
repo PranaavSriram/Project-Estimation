@@ -15,49 +15,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="01K-wq-3SV">
-                                <rect key="frame" x="85" y="256" width="244" height="384"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PE Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-o7-8h2">
+                                <rect key="frame" x="31.5" y="65" width="351" height="183"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="01K-wq-3SV">
+                                <rect key="frame" x="50" y="256" width="314" height="472"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-0j-nJ0">
-                                        <rect key="frame" x="0.0" y="0.0" width="244" height="48"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Guide"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-0j-nJ0">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="70"/>
+                                        <state key="normal" image="Guide"/>
                                         <connections>
                                             <segue destination="2v7-9W-yeU" kind="push" id="6Ff-Bj-fCo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-k7-5We">
-                                        <rect key="frame" x="0.0" y="112" width="244" height="48"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Project Type"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-k7-5We">
+                                        <rect key="frame" x="0.0" y="134" width="314" height="70"/>
+                                        <state key="normal" image="Project Types"/>
                                         <connections>
                                             <segue destination="A21-Vx-w02" kind="push" id="RvB-3C-B8I"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-Vn-3KE">
-                                        <rect key="frame" x="0.0" y="224" width="244" height="48"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="My Projects"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-Vn-3KE">
+                                        <rect key="frame" x="0.0" y="268" width="314" height="70"/>
+                                        <state key="normal" title="My Projects" image="My Projects"/>
                                         <connections>
                                             <segue destination="Nlk-dQ-sFW" kind="push" id="byu-Rv-vI7"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-WU-XQi">
-                                        <rect key="frame" x="0.0" y="336" width="244" height="48"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="About the Creators"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-WU-XQi">
+                                        <rect key="frame" x="0.0" y="402" width="314" height="70"/>
+                                        <state key="normal" title="About the Creators" image="Creators"/>
                                         <connections>
                                             <segue destination="Hz2-HC-b0D" kind="push" id="dHh-FS-X3m"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PE Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-o7-8h2">
-                                <rect key="frame" x="85" y="65" width="281" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="01K-wq-3SV" secondAttribute="bottom" constant="134" id="91R-Le-O8v"/>
+                            <constraint firstItem="01K-wq-3SV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="AVk-ZL-cep"/>
+                            <constraint firstItem="01K-wq-3SV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BOP-is-lT5"/>
+                            <constraint firstAttribute="trailing" secondItem="01K-wq-3SV" secondAttribute="trailing" constant="50" id="NLv-2d-1kA"/>
+                            <constraint firstItem="SCE-o7-8h2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZO1-Y7-fez"/>
+                            <constraint firstItem="01K-wq-3SV" firstAttribute="top" secondItem="SCE-o7-8h2" secondAttribute="bottom" constant="8" id="kUl-FO-dcE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -137,6 +140,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Creators" width="561" height="70"/>
+        <image name="Guide" width="168" height="70"/>
+        <image name="My Projects" width="360" height="70"/>
         <image name="PE Logo" width="351" height="183"/>
+        <image name="Project Types" width="360" height="70"/>
     </resources>
 </document>
