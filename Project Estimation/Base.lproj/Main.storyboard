@@ -21,7 +21,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-0j-nJ0">
                                         <rect key="frame" x="0.0" y="0.0" width="244" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Who is This For?"/>
+                                        <state key="normal" title="Landscaping Style"/>
                                         <connections>
                                             <segue destination="2v7-9W-yeU" kind="push" id="6Ff-Bj-fCo"/>
                                         </connections>
@@ -52,6 +52,10 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PE Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-o7-8h2">
+                                <rect key="frame" x="85" y="65" width="281" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -68,6 +72,35 @@
                     <view key="view" contentMode="scaleToFill" id="eQd-rS-MU6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Choose your style" translatesAutoresizingMaskIntoConstraints="NO" id="4d1-sX-fs8">
+                                <rect key="frame" x="42" y="80" width="331" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="NZk-qS-HnI" userLabel="StyleButtonStackView">
+                                <rect key="frame" x="81" y="434" width="242" height="48"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbn-3n-5sU">
+                                        <rect key="frame" x="0.0" y="0.0" width="89" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Casual"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBn-D2-p5O">
+                                        <rect key="frame" x="199" y="0.0" width="43" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Pro"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Casual" translatesAutoresizingMaskIntoConstraints="NO" id="kz2-lY-Kye">
+                                <rect key="frame" x="57" y="298" width="137" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pro" translatesAutoresizingMaskIntoConstraints="NO" id="bOy-OZ-bZi">
+                                <rect key="frame" x="231" y="298" width="153" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HzL-tq-iEC"/>
                     </view>
@@ -75,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGX-yb-cRs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1238" y="785"/>
+            <point key="canvasLocation" x="-1239.1304347826087" y="784.82142857142856"/>
         </scene>
         <!--Project Type-->
         <scene sceneID="nH0-nS-mf3">
@@ -126,4 +159,10 @@
             <point key="canvasLocation" x="1525" y="785"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Casual" width="122" height="126"/>
+        <image name="Choose your style" width="546" height="70"/>
+        <image name="PE Logo" width="351" height="183"/>
+        <image name="Pro" width="178" height="162"/>
+    </resources>
 </document>
