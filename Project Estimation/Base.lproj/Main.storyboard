@@ -91,12 +91,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="110" translatesAutoresizingMaskIntoConstraints="NO" id="NZk-qS-HnI" userLabel="StyleButtonStackView">
-                                <rect key="frame" x="29" y="434" width="89" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="6Yx-Q0-AR6">
+                                <rect key="frame" x="29" y="20" width="372" height="98.000000000000028"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="s2V-iR-6PB">
+                                <rect key="frame" x="41" y="710" width="332" height="98"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Yx-Q0-AR6" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="29" id="0co-Rc-XcW"/>
+                            <constraint firstItem="s2V-iR-6PB" firstAttribute="top" secondItem="6Yx-Q0-AR6" secondAttribute="bottom" constant="592" id="CTv-eZ-h8F"/>
+                            <constraint firstItem="6Yx-Q0-AR6" firstAttribute="top" secondItem="HzL-tq-iEC" secondAttribute="top" constant="20" id="Hdx-4R-bzo"/>
+                            <constraint firstItem="s2V-iR-6PB" firstAttribute="bottom" secondItem="HzL-tq-iEC" secondAttribute="bottom" id="Jy9-JN-1Jl"/>
+                            <constraint firstItem="s2V-iR-6PB" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="41" id="Nbp-2H-B9P"/>
+                            <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="s2V-iR-6PB" secondAttribute="trailing" constant="41" id="hLh-oK-lIB"/>
+                            <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="6Yx-Q0-AR6" secondAttribute="trailing" constant="13" id="qLU-Z7-zEi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="HzL-tq-iEC"/>
                     </view>
                     <navigationItem key="navigationItem" id="LyK-wb-J4W"/>
@@ -112,7 +123,25 @@
                     <view key="view" contentMode="scaleToFill" id="RI6-4A-fl4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="ktb-O9-d8O">
+                                <rect key="frame" x="20" y="20" width="372" height="98.000000000000028"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="lHp-2z-ZcA">
+                                <rect key="frame" x="40" y="710" width="332" height="98"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lHp-2z-ZcA" firstAttribute="top" secondItem="ktb-O9-d8O" secondAttribute="bottom" constant="592" id="5fC-RL-Uer"/>
+                            <constraint firstItem="lHp-2z-ZcA" firstAttribute="leading" secondItem="mbK-aK-UcB" secondAttribute="leading" constant="40" id="GSK-VB-y2A"/>
+                            <constraint firstItem="lHp-2z-ZcA" firstAttribute="bottom" secondItem="mbK-aK-UcB" secondAttribute="bottom" id="JXe-pj-zbb"/>
+                            <constraint firstItem="mbK-aK-UcB" firstAttribute="trailing" secondItem="ktb-O9-d8O" secondAttribute="trailing" constant="22" id="Pty-FV-DcM"/>
+                            <constraint firstItem="mbK-aK-UcB" firstAttribute="trailing" secondItem="lHp-2z-ZcA" secondAttribute="trailing" constant="42" id="ZKD-rd-VSw"/>
+                            <constraint firstItem="ktb-O9-d8O" firstAttribute="leading" secondItem="mbK-aK-UcB" secondAttribute="leading" constant="20" id="Zqj-mK-D9J"/>
+                            <constraint firstItem="lHp-2z-ZcA" firstAttribute="top" secondItem="ktb-O9-d8O" secondAttribute="bottom" constant="592" id="h8s-yd-Stu"/>
+                            <constraint firstItem="ktb-O9-d8O" firstAttribute="top" secondItem="mbK-aK-UcB" secondAttribute="top" constant="20" id="sqj-9d-2M1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="mbK-aK-UcB"/>
                     </view>
                     <navigationItem key="navigationItem" id="AUW-fN-Zuj"/>
@@ -128,7 +157,27 @@
                     <view key="view" contentMode="scaleToFill" id="5ia-nx-TRs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="f4f-78-086">
+                                <rect key="frame" x="20" y="0.0" width="374" height="98.000000000000028"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="vWM-P6-qrT">
+                                <rect key="frame" x="40" y="710" width="334" height="98"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vWM-P6-qrT" firstAttribute="leading" secondItem="5ia-nx-TRs" secondAttribute="leading" constant="40" id="9Jp-i9-klo"/>
+                            <constraint firstItem="vWM-P6-qrT" firstAttribute="top" secondItem="f4f-78-086" secondAttribute="bottom" constant="612" id="Afh-dL-RBH"/>
+                            <constraint firstItem="f4f-78-086" firstAttribute="top" secondItem="5kb-Zs-nVo" secondAttribute="top" id="CZY-65-gKx"/>
+                            <constraint firstItem="vWM-P6-qrT" firstAttribute="bottom" secondItem="5kb-Zs-nVo" secondAttribute="bottom" id="Dys-88-OYs"/>
+                            <constraint firstItem="f4f-78-086" firstAttribute="leading" secondItem="5kb-Zs-nVo" secondAttribute="leading" constant="20" id="baN-hU-ylL"/>
+                            <constraint firstItem="5kb-Zs-nVo" firstAttribute="trailing" secondItem="vWM-P6-qrT" secondAttribute="trailing" constant="40" id="bir-C6-7g6"/>
+                            <constraint firstItem="5kb-Zs-nVo" firstAttribute="trailing" secondItem="f4f-78-086" secondAttribute="trailing" constant="20" id="iyB-qV-CPL"/>
+                            <constraint firstItem="vWM-P6-qrT" firstAttribute="top" secondItem="f4f-78-086" secondAttribute="bottom" constant="612" id="oSm-ah-Kfp"/>
+                            <constraint firstItem="f4f-78-086" firstAttribute="top" secondItem="5ia-nx-TRs" secondAttribute="topMargin" id="s7p-rq-FE6"/>
+                            <constraint firstItem="5kb-Zs-nVo" firstAttribute="trailing" secondItem="vWM-P6-qrT" secondAttribute="trailing" constant="40" id="uY3-FA-vtb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5kb-Zs-nVo"/>
                     </view>
                     <navigationItem key="navigationItem" id="2qN-v6-kWF"/>
@@ -144,7 +193,25 @@
                     <view key="view" contentMode="scaleToFill" id="wtH-cK-1Ri">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="w82-s1-3FE">
+                                <rect key="frame" x="20" y="0.0" width="374" height="98.000000000000028"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="vpc-Kf-CLt">
+                                <rect key="frame" x="20" y="690" width="374" height="98"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JES-eB-7FH" firstAttribute="bottom" secondItem="vpc-Kf-CLt" secondAttribute="bottom" id="6Md-lv-RsL"/>
+                            <constraint firstItem="vpc-Kf-CLt" firstAttribute="top" secondItem="w82-s1-3FE" secondAttribute="bottom" constant="592" id="7eb-TF-X5J"/>
+                            <constraint firstItem="JES-eB-7FH" firstAttribute="trailing" secondItem="w82-s1-3FE" secondAttribute="trailing" constant="20" id="9rq-ba-kMf"/>
+                            <constraint firstItem="w82-s1-3FE" firstAttribute="top" secondItem="JES-eB-7FH" secondAttribute="top" id="ATR-7n-Cds"/>
+                            <constraint firstItem="vpc-Kf-CLt" firstAttribute="leading" secondItem="JES-eB-7FH" secondAttribute="leading" constant="20" id="Mye-zf-Rz0"/>
+                            <constraint firstItem="JES-eB-7FH" firstAttribute="trailing" secondItem="vpc-Kf-CLt" secondAttribute="trailing" constant="20" id="OLX-Ok-QJO"/>
+                            <constraint firstItem="vpc-Kf-CLt" firstAttribute="top" secondItem="w82-s1-3FE" secondAttribute="bottom" constant="592" id="nSb-Cj-bgZ"/>
+                            <constraint firstItem="w82-s1-3FE" firstAttribute="leading" secondItem="JES-eB-7FH" secondAttribute="leading" constant="20" id="sZq-AK-hx6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JES-eB-7FH"/>
                     </view>
                     <navigationItem key="navigationItem" id="TGf-rn-ZuT"/>
