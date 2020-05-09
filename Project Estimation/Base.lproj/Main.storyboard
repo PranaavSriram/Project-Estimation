@@ -16,34 +16,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PE Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-o7-8h2">
-                                <rect key="frame" x="31.5" y="147" width="351" height="183"/>
+                                <rect key="frame" x="-144" y="245" width="702" height="366"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="01K-wq-3SV">
-                                <rect key="frame" x="20" y="300" width="374" height="472"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="01K-wq-3SV">
+                                <rect key="frame" x="20" y="300" width="374" height="570"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-0j-nJ0" userLabel="Guide">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="84.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-0j-nJ0" userLabel="Guide">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="109"/>
                                         <state key="normal" image="Guide"/>
                                         <connections>
                                             <segue destination="2v7-9W-yeU" kind="push" id="6Ff-Bj-fCo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-k7-5We" userLabel="Project Type">
-                                        <rect key="frame" x="0.0" y="129.5" width="374" height="84"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-k7-5We" userLabel="Project Type">
+                                        <rect key="frame" x="0.0" y="154" width="374" height="108.5"/>
                                         <state key="normal" image="Project Types"/>
                                         <connections>
                                             <segue destination="A21-Vx-w02" kind="push" id="RvB-3C-B8I"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-Vn-3KE" userLabel="My Projects">
-                                        <rect key="frame" x="0.0" y="258.5" width="374" height="84.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-Vn-3KE" userLabel="My Projects">
+                                        <rect key="frame" x="0.0" y="307.5" width="374" height="109"/>
                                         <state key="normal" image="My Projects"/>
                                         <connections>
                                             <segue destination="Nlk-dQ-sFW" kind="push" id="byu-Rv-vI7"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-WU-XQi" userLabel="Creators">
-                                        <rect key="frame" x="0.0" y="388" width="374" height="84"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-WU-XQi" userLabel="Creators">
+                                        <rect key="frame" x="0.0" y="461.5" width="374" height="108.5"/>
                                         <state key="normal" image="Creators"/>
                                         <connections>
                                             <segue destination="Hz2-HC-b0D" kind="push" id="dHh-FS-X3m"/>
@@ -52,9 +52,9 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="EfT-Gp-i3j">
-                                <rect key="frame" x="21" y="44" width="372" height="98.000000000000028"/>
+                                <rect key="frame" x="21" y="44" width="372" height="196"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Yxh-tu-FGG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Yxh-tu-FGG">
                                 <rect key="frame" x="41" y="772" width="332" height="98"/>
                             </imageView>
                         </subviews>
@@ -92,33 +92,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="6Yx-Q0-AR6">
-                                <rect key="frame" x="29" y="20" width="372" height="98.000000000000028"/>
+                                <rect key="frame" x="29" y="20" width="372" height="110"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="s2V-iR-6PB">
-                                <rect key="frame" x="41" y="710" width="332" height="98"/>
+                                <rect key="frame" x="41" y="722" width="332" height="86"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Guide" translatesAutoresizingMaskIntoConstraints="NO" id="uzU-35-sEs">
-                                <rect key="frame" x="87" y="113" width="240" height="128"/>
+                                <rect key="frame" x="87" y="113" width="240" height="140"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="O62-zR-hUR">
-                                <rect key="frame" x="20" y="371" width="374" height="310"/>
+                                <rect key="frame" x="20" y="255" width="374" height="438"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcA-Ry-eDJ" userLabel="Casual">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="118"/>
                                         <state key="normal" backgroundImage="Casual-1"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQ5-DU-gXe" userLabel="Commerical">
-                                        <rect key="frame" x="0.0" y="120" width="374" height="70"/>
+                                        <rect key="frame" x="0.0" y="168" width="374" height="118"/>
                                         <state key="normal" backgroundImage="Commercial"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pf-4b-r1W" userLabel="Professional">
-                                        <rect key="frame" x="0.0" y="240" width="374" height="70"/>
+                                        <rect key="frame" x="0.0" y="336" width="374" height="102"/>
                                         <state key="normal" backgroundImage="Professional"/>
                                     </button>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shovel 1" translatesAutoresizingMaskIntoConstraints="NO" id="Ff1-Mr-85c" userLabel="Shovel Icon">
-                                <rect key="frame" x="87" y="235" width="240" height="128"/>
+                                <rect key="frame" x="87" y="247" width="240" height="0.0"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -161,13 +161,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="ktb-O9-d8O">
-                                <rect key="frame" x="20" y="20" width="372" height="98.000000000000028"/>
+                                <rect key="frame" x="20" y="20" width="372" height="110"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="lHp-2z-ZcA">
-                                <rect key="frame" x="40" y="710" width="332" height="98"/>
+                                <rect key="frame" x="40" y="722" width="332" height="86"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Project Types" translatesAutoresizingMaskIntoConstraints="NO" id="hZ5-SO-dQ1">
-                                <rect key="frame" x="40" y="108" width="334" height="128"/>
+                                <rect key="frame" x="40" y="108" width="334" height="140"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -202,13 +202,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="f4f-78-086">
-                                <rect key="frame" x="20" y="0.0" width="374" height="98.000000000000028"/>
+                                <rect key="frame" x="20" y="0.0" width="374" height="110"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="vWM-P6-qrT">
-                                <rect key="frame" x="40" y="710" width="334" height="98"/>
+                                <rect key="frame" x="40" y="722" width="334" height="86"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="My Projects" translatesAutoresizingMaskIntoConstraints="NO" id="Gkj-ac-j8t">
-                                <rect key="frame" x="40" y="85" width="334" height="128"/>
+                                <rect key="frame" x="40" y="85" width="334" height="140"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -244,14 +244,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="w82-s1-3FE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="w82-s1-3FE">
                                 <rect key="frame" x="20" y="0.0" width="374" height="98.000000000000028"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="vpc-Kf-CLt">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="vpc-Kf-CLt">
                                 <rect key="frame" x="20" y="690" width="374" height="98"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Creators" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-H9-W6J">
-                                <rect key="frame" x="10" y="106" width="394.00000000000011" height="71"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Creators" translatesAutoresizingMaskIntoConstraints="NO" id="I3D-H9-W6J">
+                                <rect key="frame" x="10" y="106" width="394" height="71"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
