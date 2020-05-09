@@ -16,50 +16,65 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PE Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-o7-8h2">
-                                <rect key="frame" x="31.5" y="65" width="351" height="183"/>
+                                <rect key="frame" x="31.5" y="147" width="351" height="183"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="01K-wq-3SV">
-                                <rect key="frame" x="50" y="256" width="314" height="472"/>
+                                <rect key="frame" x="20" y="300" width="374" height="472"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWD-0j-nJ0">
-                                        <rect key="frame" x="0.0" y="0.0" width="314" height="70"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="70"/>
                                         <state key="normal" image="Guide"/>
                                         <connections>
                                             <segue destination="2v7-9W-yeU" kind="push" id="6Ff-Bj-fCo"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJs-k7-5We">
-                                        <rect key="frame" x="0.0" y="134" width="314" height="70"/>
+                                        <rect key="frame" x="0.0" y="134" width="374" height="70"/>
                                         <state key="normal" image="Project Types"/>
                                         <connections>
                                             <segue destination="A21-Vx-w02" kind="push" id="RvB-3C-B8I"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONo-Vn-3KE">
-                                        <rect key="frame" x="0.0" y="268" width="314" height="70"/>
-                                        <state key="normal" title="My Projects" image="My Projects"/>
+                                        <rect key="frame" x="0.0" y="268" width="374" height="70"/>
+                                        <state key="normal" image="My Projects"/>
                                         <connections>
                                             <segue destination="Nlk-dQ-sFW" kind="push" id="byu-Rv-vI7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-WU-XQi">
-                                        <rect key="frame" x="0.0" y="402" width="314" height="70"/>
-                                        <state key="normal" title="About the Creators" image="Creators"/>
+                                        <rect key="frame" x="0.0" y="402" width="374" height="70"/>
+                                        <state key="normal" image="Creators"/>
                                         <connections>
                                             <segue destination="Hz2-HC-b0D" kind="push" id="dHh-FS-X3m"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Top" translatesAutoresizingMaskIntoConstraints="NO" id="EfT-Gp-i3j">
+                                <rect key="frame" x="21" y="44" width="372" height="98.000000000000028"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vine Bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Yxh-tu-FGG">
+                                <rect key="frame" x="41" y="772" width="332" height="98"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="01K-wq-3SV" secondAttribute="bottom" constant="134" id="91R-Le-O8v"/>
-                            <constraint firstItem="01K-wq-3SV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="AVk-ZL-cep"/>
-                            <constraint firstItem="01K-wq-3SV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BOP-is-lT5"/>
-                            <constraint firstAttribute="trailing" secondItem="01K-wq-3SV" secondAttribute="trailing" constant="50" id="NLv-2d-1kA"/>
-                            <constraint firstItem="SCE-o7-8h2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZO1-Y7-fez"/>
-                            <constraint firstItem="01K-wq-3SV" firstAttribute="top" secondItem="SCE-o7-8h2" secondAttribute="bottom" constant="8" id="kUl-FO-dcE"/>
+                            <constraint firstItem="01K-wq-3SV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="0Lv-rX-Reg"/>
+                            <constraint firstAttribute="bottom" secondItem="Yxh-tu-FGG" secondAttribute="bottom" constant="26" id="0Tc-TV-pTN"/>
+                            <constraint firstItem="01K-wq-3SV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3el-ZV-Z2P"/>
+                            <constraint firstItem="Yxh-tu-FGG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="8gq-4X-hfn"/>
+                            <constraint firstItem="Yxh-tu-FGG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JNK-7P-C4d"/>
+                            <constraint firstAttribute="trailing" secondItem="01K-wq-3SV" secondAttribute="trailing" constant="20" id="JhF-iG-LvP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yxh-tu-FGG" secondAttribute="trailing" constant="21" id="Lou-FN-u2Q"/>
+                            <constraint firstItem="SCE-o7-8h2" firstAttribute="top" secondItem="EfT-Gp-i3j" secondAttribute="bottom" constant="5" id="M3H-UZ-QPn"/>
+                            <constraint firstItem="EfT-Gp-i3j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="21" id="OH6-X6-rJR"/>
+                            <constraint firstAttribute="trailing" secondItem="EfT-Gp-i3j" secondAttribute="trailing" constant="21" id="Uyb-FW-LsB"/>
+                            <constraint firstItem="Yxh-tu-FGG" firstAttribute="top" secondItem="01K-wq-3SV" secondAttribute="bottom" id="Vjd-f6-eOu"/>
+                            <constraint firstItem="EfT-Gp-i3j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XLf-ex-bG6"/>
+                            <constraint firstItem="EfT-Gp-i3j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lzu-Sy-gDL"/>
+                            <constraint firstItem="01K-wq-3SV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="300" id="o5L-Ca-uKA"/>
+                            <constraint firstItem="SCE-o7-8h2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wbV-tN-gJQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -145,5 +160,7 @@
         <image name="My Projects" width="360" height="70"/>
         <image name="PE Logo" width="351" height="183"/>
         <image name="Project Types" width="360" height="70"/>
+        <image name="Vine Bottom" width="456" height="98"/>
+        <image name="Vine Top" width="456" height="98"/>
     </resources>
 </document>
