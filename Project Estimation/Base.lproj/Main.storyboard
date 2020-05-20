@@ -781,10 +781,10 @@
             </objects>
             <point key="canvasLocation" x="-2425" y="2134"/>
         </scene>
-        <!--Who is This For-->
+        <!--Project Type-->
         <scene sceneID="Cc6-GR-bgd">
             <objects>
-                <viewController title="Who is This For" id="CyD-5E-h3W" sceneMemberID="viewController">
+                <viewController title="Project Type" id="CyD-5E-h3W" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="70c-lX-Jnb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -798,12 +798,97 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Project Types" translatesAutoresizingMaskIntoConstraints="NO" id="gPh-yf-gWw">
                                 <rect key="frame" x="40" y="157" width="334" height="128"/>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="67" translatesAutoresizingMaskIntoConstraints="NO" id="YAw-4e-Q1Q" userLabel="Button Stack View">
+                                <rect key="frame" x="10" y="315" width="394" height="429"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-pN-nFV" userLabel="Brick/Mulch Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xv-70-4OW">
+                                                <rect key="frame" x="0.0" y="0.0" width="209.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="Brick Laying">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrE-af-3az">
+                                                <rect key="frame" x="234.5" y="0.0" width="159.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="Mulching">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="yt3-7m-adu" userLabel="Sod/Planting Stack View">
+                                        <rect key="frame" x="0.0" y="127" width="394" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fc9-Mc-IUa">
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="Sod Roll">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBi-xu-t2z">
+                                                <rect key="frame" x="209.5" y="0.0" width="184.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="Planting">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="7ll-6r-T0m" userLabel="Bush/Rock Stack View">
+                                        <rect key="frame" x="0.0" y="254" width="394" height="48"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQn-hS-hTC">
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Bush Removal">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-ol-HmQ">
+                                                <rect key="frame" x="209.5" y="0.0" width="184.5" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                                <state key="normal" title="Rock Laying">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="8Oz-ND-Hbv" userLabel="Edging/Fabric Stack View">
+                                        <rect key="frame" x="0.0" y="369" width="394" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ug-yV-58Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="Edging">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycv-ib-ZVb">
+                                                <rect key="frame" x="209.5" y="0.0" width="184.5" height="60"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <state key="normal" title="Fabric">
+                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="YY7-XR-bUG" firstAttribute="top" secondItem="LdW-Zp-M6D" secondAttribute="bottom" constant="592" id="73c-Rg-c1F"/>
+                            <constraint firstItem="YAw-4e-Q1Q" firstAttribute="leading" secondItem="yCA-E8-dfC" secondAttribute="leading" constant="10" id="AcE-fJ-k1x"/>
+                            <constraint firstItem="yCA-E8-dfC" firstAttribute="trailing" secondItem="YAw-4e-Q1Q" secondAttribute="trailing" constant="10" id="FSx-Lk-eBw"/>
                             <constraint firstItem="YY7-XR-bUG" firstAttribute="top" secondItem="gPh-yf-gWw" secondAttribute="bottom" constant="469" id="FaH-fL-QJG"/>
                             <constraint firstItem="YY7-XR-bUG" firstAttribute="bottom" secondItem="yCA-E8-dfC" secondAttribute="bottom" id="Fpj-18-hCp"/>
+                            <constraint firstItem="YY7-XR-bUG" firstAttribute="top" secondItem="YAw-4e-Q1Q" secondAttribute="bottom" constant="10" id="G04-4e-zar"/>
+                            <constraint firstItem="YAw-4e-Q1Q" firstAttribute="top" secondItem="gPh-yf-gWw" secondAttribute="bottom" constant="30" id="ZQZ-Tp-eQ9"/>
                             <constraint firstItem="LdW-Zp-M6D" firstAttribute="leading" secondItem="yCA-E8-dfC" secondAttribute="leading" constant="29" id="ZXQ-fd-tBn"/>
                             <constraint firstItem="gPh-yf-gWw" firstAttribute="leading" secondItem="yCA-E8-dfC" secondAttribute="leading" constant="40" id="jK5-2i-XO0"/>
                             <constraint firstItem="yCA-E8-dfC" firstAttribute="trailing" secondItem="gPh-yf-gWw" secondAttribute="trailing" constant="40" id="lPV-62-5RI"/>
@@ -819,7 +904,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e01-L9-xOe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-462" y="1507"/>
+            <point key="canvasLocation" x="-462.31884057971018" y="1506.6964285714284"/>
         </scene>
         <!--My Projects-->
         <scene sceneID="7S6-JG-0Lz">
@@ -928,10 +1013,10 @@
             </objects>
             <point key="canvasLocation" x="1258" y="830"/>
         </scene>
-        <!--Who is This For-->
+        <!--Settings-->
         <scene sceneID="vx0-Tl-XoX">
             <objects>
-                <viewController title="Who is This For" id="60k-69-iD4" sceneMemberID="viewController">
+                <viewController title="Settings" id="60k-69-iD4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BGy-T0-sH9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
