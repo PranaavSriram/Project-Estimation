@@ -26,6 +26,12 @@ class MyProjectsViewController: UIViewController {
         performSegue(withIdentifier: "LoadProjectSegue", sender: self)
         
     }
+    
+    
+    @IBAction func BackButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
