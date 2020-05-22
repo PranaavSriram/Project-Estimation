@@ -9,14 +9,29 @@
 import UIKit
 
 class GuideViewController: UIViewController {
-
+    @IBOutlet weak var Shovel: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func CasualButton(_ sender: Any) {
+        Shovel.image = UIImage(named: "Shovel 1")
+    }
+    
+    @IBAction func CommercialButton(_ sender: Any) {
+        Shovel.image = UIImage(named: "Shovel Cross")
+        
+    }
+    
+    
+    @IBAction func ProfessionalButton(_ sender: Any) {
+        Shovel.image = UIImage(named: "Shovel Triple")
+        
+    }
+    
     /*
     // MARK: - Navigation
 
