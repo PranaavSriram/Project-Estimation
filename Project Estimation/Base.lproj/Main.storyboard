@@ -1066,6 +1066,7 @@
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
+                                            <action selector="MyProjectsButton:" destination="r9W-YQ-gWX" eventType="touchUpInside" id="Dnm-Hl-dOe"/>
                                             <action selector="NewProjectButton:" destination="r9W-YQ-gWX" eventType="touchUpInside" id="QBs-Oa-xtq"/>
                                             <segue destination="CyD-5E-h3W" kind="presentation" identifier="ProjectTypeSegue" id="ghH-m2-Cv7"/>
                                         </connections>
