@@ -15,6 +15,21 @@
 		4874BFEA2464772800D5161E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4874BFE82464772800D5161E /* LaunchScreen.storyboard */; };
 		4874BFF52464772900D5161E /* Project_EstimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874BFF42464772900D5161E /* Project_EstimationTests.swift */; };
 		4874C0002464772A00D5161E /* Project_EstimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4874BFFF2464772A00D5161E /* Project_EstimationUITests.swift */; };
+		5E85E851247877F400DDA53F /* MyProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E850247877F400DDA53F /* MyProjectsViewController.swift */; };
+		5E85E85324787AF600DDA53F /* LoadProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E85224787AF600DDA53F /* LoadProjectViewController.swift */; };
+		5E85E85524787B8200DDA53F /* ProjectTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E85424787B8200DDA53F /* ProjectTypeViewController.swift */; };
+		5E85E8572478830400DDA53F /* BrickLayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8562478830400DDA53F /* BrickLayingViewController.swift */; };
+		5E85E8592478833D00DDA53F /* MulchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8582478833D00DDA53F /* MulchingViewController.swift */; };
+		5E85E85B2478839D00DDA53F /* SodRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E85A2478839D00DDA53F /* SodRollViewController.swift */; };
+		5E85E85D247883EF00DDA53F /* PlantingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E85C247883EF00DDA53F /* PlantingViewController.swift */; };
+		5E85E85F2478840400DDA53F /* BushRemovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E85E2478840400DDA53F /* BushRemovalViewController.swift */; };
+		5E85E8612478841B00DDA53F /* RockLayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8602478841B00DDA53F /* RockLayingViewController.swift */; };
+		5E85E8632478842D00DDA53F /* EdgingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8622478842D00DDA53F /* EdgingViewController.swift */; };
+		5E85E8652478844300DDA53F /* FabricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8642478844300DDA53F /* FabricViewController.swift */; };
+		5E85E8672478845C00DDA53F /* NewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8662478845C00DDA53F /* NewProjectViewController.swift */; };
+		5E85E8692478859300DDA53F /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E8682478859300DDA53F /* GuideViewController.swift */; };
+		5E85E86B247885B500DDA53F /* CreatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E86A247885B500DDA53F /* CreatorsViewController.swift */; };
+		5E85E86D247885C700DDA53F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85E86C247885C700DDA53F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		4874BFFB2464772900D5161E /* Project EstimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project EstimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4874BFFF2464772A00D5161E /* Project_EstimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_EstimationUITests.swift; sourceTree = "<group>"; };
 		4874C0012464772A00D5161E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E85E850247877F400DDA53F /* MyProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectsViewController.swift; sourceTree = "<group>"; };
+		5E85E85224787AF600DDA53F /* LoadProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadProjectViewController.swift; sourceTree = "<group>"; };
+		5E85E85424787B8200DDA53F /* ProjectTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTypeViewController.swift; sourceTree = "<group>"; };
+		5E85E8562478830400DDA53F /* BrickLayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrickLayingViewController.swift; sourceTree = "<group>"; };
+		5E85E8582478833D00DDA53F /* MulchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulchingViewController.swift; sourceTree = "<group>"; };
+		5E85E85A2478839D00DDA53F /* SodRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodRollViewController.swift; sourceTree = "<group>"; };
+		5E85E85C247883EF00DDA53F /* PlantingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantingViewController.swift; sourceTree = "<group>"; };
+		5E85E85E2478840400DDA53F /* BushRemovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BushRemovalViewController.swift; sourceTree = "<group>"; };
+		5E85E8602478841B00DDA53F /* RockLayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockLayingViewController.swift; sourceTree = "<group>"; };
+		5E85E8622478842D00DDA53F /* EdgingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgingViewController.swift; sourceTree = "<group>"; };
+		5E85E8642478844300DDA53F /* FabricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabricViewController.swift; sourceTree = "<group>"; };
+		5E85E8662478845C00DDA53F /* NewProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectViewController.swift; sourceTree = "<group>"; };
+		5E85E8682478859300DDA53F /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		5E85E86A247885B500DDA53F /* CreatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorsViewController.swift; sourceTree = "<group>"; };
+		5E85E86C247885C700DDA53F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +133,24 @@
 				4874BFDF2464771C00D5161E /* SceneDelegate.swift */,
 				4874BFE12464771C00D5161E /* ViewController.swift */,
 				4874BFE32464771C00D5161E /* Main.storyboard */,
+				5E85E8682478859300DDA53F /* GuideViewController.swift */,
+				5E85E86A247885B500DDA53F /* CreatorsViewController.swift */,
+				5E85E86C247885C700DDA53F /* SettingsViewController.swift */,
+				5E85E8662478845C00DDA53F /* NewProjectViewController.swift */,
+				5E85E8642478844300DDA53F /* FabricViewController.swift */,
+				5E85E8622478842D00DDA53F /* EdgingViewController.swift */,
+				5E85E8602478841B00DDA53F /* RockLayingViewController.swift */,
+				5E85E85E2478840400DDA53F /* BushRemovalViewController.swift */,
+				5E85E85C247883EF00DDA53F /* PlantingViewController.swift */,
+				5E85E85A2478839D00DDA53F /* SodRollViewController.swift */,
+				5E85E8582478833D00DDA53F /* MulchingViewController.swift */,
+				5E85E8562478830400DDA53F /* BrickLayingViewController.swift */,
+				5E85E85424787B8200DDA53F /* ProjectTypeViewController.swift */,
+				5E85E85224787AF600DDA53F /* LoadProjectViewController.swift */,
 				4874BFE62464772800D5161E /* Assets.xcassets */,
 				4874BFE82464772800D5161E /* LaunchScreen.storyboard */,
 				4874BFEB2464772800D5161E /* Info.plist */,
+				5E85E850247877F400DDA53F /* MyProjectsViewController.swift */,
 			);
 			path = "Project Estimation";
 			sourceTree = "<group>";
@@ -259,9 +304,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E85E851247877F400DDA53F /* MyProjectsViewController.swift in Sources */,
+				5E85E8692478859300DDA53F /* GuideViewController.swift in Sources */,
 				4874BFE22464771C00D5161E /* ViewController.swift in Sources */,
+				5E85E85524787B8200DDA53F /* ProjectTypeViewController.swift in Sources */,
+				5E85E85324787AF600DDA53F /* LoadProjectViewController.swift in Sources */,
+				5E85E8672478845C00DDA53F /* NewProjectViewController.swift in Sources */,
 				4874BFDE2464771C00D5161E /* AppDelegate.swift in Sources */,
+				5E85E85D247883EF00DDA53F /* PlantingViewController.swift in Sources */,
+				5E85E86B247885B500DDA53F /* CreatorsViewController.swift in Sources */,
+				5E85E85B2478839D00DDA53F /* SodRollViewController.swift in Sources */,
+				5E85E8612478841B00DDA53F /* RockLayingViewController.swift in Sources */,
+				5E85E8592478833D00DDA53F /* MulchingViewController.swift in Sources */,
+				5E85E85F2478840400DDA53F /* BushRemovalViewController.swift in Sources */,
 				4874BFE02464771C00D5161E /* SceneDelegate.swift in Sources */,
+				5E85E8632478842D00DDA53F /* EdgingViewController.swift in Sources */,
+				5E85E8572478830400DDA53F /* BrickLayingViewController.swift in Sources */,
+				5E85E8652478844300DDA53F /* FabricViewController.swift in Sources */,
+				5E85E86D247885C700DDA53F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

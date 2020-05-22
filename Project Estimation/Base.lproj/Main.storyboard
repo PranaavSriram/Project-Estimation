@@ -93,7 +93,7 @@
         <!--Guide-->
         <scene sceneID="As0-pI-auX">
             <objects>
-                <viewController title="Guide" modalPresentationStyle="fullScreen" id="2v7-9W-yeU" sceneMemberID="viewController">
+                <viewController title="Guide" modalPresentationStyle="fullScreen" id="2v7-9W-yeU" customClass="GuideViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eQd-rS-MU6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,7 +163,7 @@
         <!--New Project-->
         <scene sceneID="7Y2-DD-YbK">
             <objects>
-                <viewController title="New Project" modalPresentationStyle="fullScreen" id="K7X-l1-Jhs" sceneMemberID="viewController">
+                <viewController title="New Project" modalPresentationStyle="fullScreen" id="K7X-l1-Jhs" customClass="NewProjectViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vhF-Vs-o6L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -244,7 +244,7 @@
         <!--Edging-->
         <scene sceneID="Siq-Gd-Ebu">
             <objects>
-                <viewController title="Edging" modalPresentationStyle="fullScreen" id="4jT-5j-Nfp" sceneMemberID="viewController">
+                <viewController title="Edging" modalPresentationStyle="fullScreen" id="4jT-5j-Nfp" customClass="EdgingViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k0n-Ql-4Jo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,7 +314,7 @@
         <!--Bush Removal-->
         <scene sceneID="qQ2-xv-3ea">
             <objects>
-                <viewController title="Bush Removal" modalPresentationStyle="fullScreen" id="zcp-hs-BFZ" sceneMemberID="viewController">
+                <viewController title="Bush Removal" modalPresentationStyle="fullScreen" id="zcp-hs-BFZ" customClass="BushRemovalViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KLT-oC-ZmP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -399,7 +399,7 @@
         <!--Fabric-->
         <scene sceneID="7Ij-6H-Cp9">
             <objects>
-                <viewController title="Fabric" modalPresentationStyle="fullScreen" id="b3b-AA-2rk" sceneMemberID="viewController">
+                <viewController title="Fabric" modalPresentationStyle="fullScreen" id="b3b-AA-2rk" customClass="FabricViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hUj-4j-EBp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -480,7 +480,7 @@
         <!--Planting-->
         <scene sceneID="40d-wf-7nd">
             <objects>
-                <viewController title="Planting" modalPresentationStyle="fullScreen" id="SFy-S6-gjs" sceneMemberID="viewController">
+                <viewController title="Planting" modalPresentationStyle="fullScreen" id="SFy-S6-gjs" customClass="PlantingViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t6l-kS-nXN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -565,7 +565,7 @@
         <!--Rock Laying-->
         <scene sceneID="7Q9-8a-KuE">
             <objects>
-                <viewController title="Rock Laying" modalPresentationStyle="fullScreen" id="uVl-yw-H71" sceneMemberID="viewController">
+                <viewController title="Rock Laying" modalPresentationStyle="fullScreen" id="uVl-yw-H71" customClass="RockLayingViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ksd-tk-eaE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -646,7 +646,7 @@
         <!--Sod Roll-->
         <scene sceneID="OWa-Nm-jtW">
             <objects>
-                <viewController title="Sod Roll" modalPresentationStyle="fullScreen" id="RjD-Nz-jJr" sceneMemberID="viewController">
+                <viewController title="Sod Roll" modalPresentationStyle="fullScreen" id="RjD-Nz-jJr" customClass="SodRollViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eY1-bX-GMU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -728,7 +728,7 @@
         <!--Brick Laying-->
         <scene sceneID="hXP-rt-5G9">
             <objects>
-                <viewController title="Brick Laying" modalPresentationStyle="fullScreen" id="GMJ-54-jCq" sceneMemberID="viewController">
+                <viewController title="Brick Laying" modalPresentationStyle="fullScreen" id="GMJ-54-jCq" customClass="BrickLayingViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TTI-3J-Xu7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -810,7 +810,7 @@
         <!--Mulching-->
         <scene sceneID="7R8-b2-ZTM">
             <objects>
-                <viewController title="Mulching" modalPresentationStyle="fullScreen" id="At8-vL-w9X" sceneMemberID="viewController">
+                <viewController title="Mulching" modalPresentationStyle="fullScreen" id="At8-vL-w9X" customClass="MulchingViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O8h-l1-PcI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -886,12 +886,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrD-Nj-Gs8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3297.1014492753625" y="2064.5089285714284"/>
+            <point key="canvasLocation" x="-3370" y="2138"/>
         </scene>
         <!--Project Type-->
         <scene sceneID="Cc6-GR-bgd">
             <objects>
-                <viewController title="Project Type" modalPresentationStyle="fullScreen" id="CyD-5E-h3W" sceneMemberID="viewController">
+                <viewController title="Project Type" modalPresentationStyle="fullScreen" id="CyD-5E-h3W" customClass="ProjectTypeViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="70c-lX-Jnb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -912,7 +912,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="GMJ-54-jCq" kind="show" id="XB9-NR-5jN"/>
+                                                    <action selector="BrickLayingButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="Odi-w9-HCg"/>
+                                                    <segue destination="GMJ-54-jCq" kind="presentation" identifier="BrickLayingSegue" id="XB9-NR-5jN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QrE-af-3az">
@@ -922,7 +923,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="At8-vL-w9X" kind="show" id="wAT-fS-o3E"/>
+                                                    <action selector="MulchingButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="g8d-2F-kVs"/>
+                                                    <segue destination="At8-vL-w9X" kind="presentation" identifier="MulchingSegue" id="wAT-fS-o3E"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -937,7 +939,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="RjD-Nz-jJr" kind="show" id="OSi-Lp-WpV"/>
+                                                    <action selector="SodRollButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="QTh-Hi-5pK"/>
+                                                    <segue destination="RjD-Nz-jJr" kind="presentation" identifier="SodRollSegue" id="OSi-Lp-WpV"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBi-xu-t2z">
@@ -947,7 +950,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="SFy-S6-gjs" kind="show" id="4jI-AX-nBi"/>
+                                                    <action selector="PlantingButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="SWb-d8-B8Y"/>
+                                                    <segue destination="SFy-S6-gjs" kind="presentation" identifier="PlantingSegue" id="4jI-AX-nBi"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -962,7 +966,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="zcp-hs-BFZ" kind="show" id="Kyq-uP-Xdw"/>
+                                                    <action selector="BushRemovalButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="8OB-h8-Cy4"/>
+                                                    <segue destination="zcp-hs-BFZ" kind="presentation" identifier="BushRemoval" id="Kyq-uP-Xdw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-ol-HmQ">
@@ -972,7 +977,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="uVl-yw-H71" kind="show" id="hRd-aP-LKE"/>
+                                                    <action selector="RockLayingButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="8PW-2I-eSE"/>
+                                                    <segue destination="uVl-yw-H71" kind="presentation" identifier="RockLaying" id="hRd-aP-LKE"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -987,7 +993,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="4jT-5j-Nfp" kind="show" id="VWw-8Q-B6T"/>
+                                                    <action selector="EdgingButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="JI5-y7-fr9"/>
+                                                    <segue destination="4jT-5j-Nfp" kind="presentation" identifier="EdgingSegue" id="VWw-8Q-B6T"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycv-ib-ZVb">
@@ -997,7 +1004,8 @@
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="b3b-AA-2rk" kind="show" id="8n5-Oh-XEH"/>
+                                                    <action selector="FabricButton:" destination="CyD-5E-h3W" eventType="touchUpInside" id="5Px-Oe-rIY"/>
+                                                    <segue destination="b3b-AA-2rk" kind="presentation" identifier="FabricSegue" id="8n5-Oh-XEH"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1014,7 +1022,8 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="K7X-l1-Jhs" kind="show" id="LRJ-Ic-Yce"/>
+                                    <action selector="TotalEstimation:" destination="CyD-5E-h3W" eventType="touchUpInside" id="ZiK-zM-SgD"/>
+                                    <segue destination="K7X-l1-Jhs" kind="presentation" identifier="NewProjectSegue" id="LRJ-Ic-Yce"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1045,7 +1054,7 @@
         <!--My Projects-->
         <scene sceneID="7S6-JG-0Lz">
             <objects>
-                <viewController title="My Projects" modalPresentationStyle="fullScreen" id="Nlk-dQ-sFW" sceneMemberID="viewController">
+                <viewController title="My Projects" modalPresentationStyle="fullScreen" id="Nlk-dQ-sFW" customClass="MyProjectsViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5ia-nx-TRs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1066,8 +1075,8 @@
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="MyProjectsButton:" destination="r9W-YQ-gWX" eventType="touchUpInside" id="Dnm-Hl-dOe"/>
-                                            <action selector="NewProjectButton:" destination="r9W-YQ-gWX" eventType="touchUpInside" id="QBs-Oa-xtq"/>
+                                            <action selector="NewProjectButton:" destination="Qw0-Us-Sfk" eventType="touchUpInside" id="7Og-Q1-JVY"/>
+                                            <action selector="NewProjectButton:" destination="Nlk-dQ-sFW" eventType="touchUpInside" id="dh8-E4-DXR"/>
                                             <segue destination="CyD-5E-h3W" kind="presentation" identifier="ProjectTypeSegue" id="ghH-m2-Cv7"/>
                                         </connections>
                                     </button>
@@ -1078,7 +1087,8 @@
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="9qp-za-Lv1" kind="show" id="sfP-Cb-rae"/>
+                                            <action selector="LoadProjectButton:" destination="Nlk-dQ-sFW" eventType="touchUpInside" id="dMC-73-shR"/>
+                                            <segue destination="9qp-za-Lv1" kind="presentation" identifier="LoadProjectSegue" id="sfP-Cb-rae"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1105,14 +1115,14 @@
                     <navigationItem key="navigationItem" id="2qN-v6-kWF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAa-T6-aQk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="r9W-YQ-gWX" userLabel="Exit" sceneMemberID="exit"/>
+                <exit id="Qw0-Us-Sfk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-986.95652173913049" y="571.875"/>
         </scene>
         <!--About the Creators-->
         <scene sceneID="4L2-Qe-5y9">
             <objects>
-                <viewController title="About the Creators" modalPresentationStyle="fullScreen" id="Hz2-HC-b0D" sceneMemberID="viewController">
+                <viewController title="About the Creators" modalPresentationStyle="fullScreen" id="Hz2-HC-b0D" customClass="CreatorsViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wtH-cK-1Ri">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1212,7 +1222,7 @@
         <!--Settings-->
         <scene sceneID="vx0-Tl-XoX">
             <objects>
-                <viewController title="Settings" modalPresentationStyle="fullScreen" id="60k-69-iD4" sceneMemberID="viewController">
+                <viewController title="Settings" modalPresentationStyle="fullScreen" id="60k-69-iD4" customClass="SettingsViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BGy-T0-sH9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1266,7 +1276,7 @@
         <!--Load Project-->
         <scene sceneID="9M9-Tf-wia">
             <objects>
-                <viewController title="Load Project" modalPresentationStyle="fullScreen" id="9qp-za-Lv1" sceneMemberID="viewController">
+                <viewController title="Load Project" modalPresentationStyle="fullScreen" id="9qp-za-Lv1" customClass="LoadProjectViewController" customModule="Project_Estimation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yGN-E4-CKQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
