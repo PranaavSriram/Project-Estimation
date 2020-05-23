@@ -38,12 +38,12 @@ class ProjectTypeViewController: UIViewController {
     }
     
     @IBAction func BushRemovalButton(_ sender: Any) {
-        performSegue(withIdentifier: "BushRemovalSegue", sender: self)
+        performSegue(withIdentifier: "BushRemoval", sender: self)
         
     }
     
     @IBAction func RockLayingButton(_ sender: Any) {
-        performSegue(withIdentifier: "RockLayingSegue", sender: self)
+        performSegue(withIdentifier: "RockLaying", sender: self)
         
     }
     
