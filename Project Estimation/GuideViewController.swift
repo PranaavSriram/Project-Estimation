@@ -11,6 +11,7 @@ import UIKit
 class GuideViewController: UIViewController {
     @IBOutlet weak var Shovel: UIImageView!
     
+    @IBOutlet weak var Description: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

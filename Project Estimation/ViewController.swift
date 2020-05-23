@@ -15,22 +15,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 // I touched up the UI
-    @IBAction func GuideButton(_ sender: Any) {
-        
-        performSegue(withIdentifier: "Guide Segue", sender: self)
-    }
+    @IBAction func Guide(_ sender: Any) {
+        performSegue(withIdentifier: "GuideSegue", sender: self)}
     
-    @IBAction func MyProjectsButton(_ sender: Any) {
+    
+    @IBAction func MyProjects(_ sender: Any) {
         performSegue(withIdentifier: "MyProjectsSegue", sender: self)
     }
-    
-    
-    @IBAction func SettingsButton(_ sender: Any) {
+    @IBAction func Settings(_ sender: Any) {
         performSegue(withIdentifier: "SettingsSegue", sender: self)
-        
     }
     
-    @IBAction func CreatorsButton(_ sender: Any) {
+    @IBAction func Creators(_ sender: Any) {
         performSegue(withIdentifier: "CreatorsSegue", sender: self)
     }
     
