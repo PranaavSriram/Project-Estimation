@@ -119,6 +119,12 @@
                                     <action selector="BackButton:" destination="2v7-9W-yeU" eventType="touchUpInside" id="o10-dG-sGa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFF-pa-0Nw">
+                                <rect key="frame" x="130" y="398" width="154" height="68"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="O62-zR-hUR">
                                 <rect key="frame" x="101" y="484" width="212" height="220"/>
                                 <subviews>
@@ -160,7 +166,9 @@
                             <constraint firstItem="uzU-35-sEs" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="41" id="0Ys-uz-Ef2"/>
                             <constraint firstItem="6Yx-Q0-AR6" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="29" id="0co-Rc-XcW"/>
                             <constraint firstItem="HzL-tq-iEC" firstAttribute="bottom" secondItem="BLA-g3-Rxe" secondAttribute="bottom" constant="38" id="3Pq-sp-Khn"/>
+                            <constraint firstItem="O62-zR-hUR" firstAttribute="top" secondItem="tFF-pa-0Nw" secondAttribute="bottom" constant="18" id="3Yx-Dh-lVE"/>
                             <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="Ff1-Mr-85c" secondAttribute="trailing" constant="87" id="7gW-yn-cLe"/>
+                            <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="tFF-pa-0Nw" secondAttribute="trailing" constant="130" id="9QM-mc-AI4"/>
                             <constraint firstItem="Ff1-Mr-85c" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="87" id="Dc4-Cn-GCM"/>
                             <constraint firstItem="Ff1-Mr-85c" firstAttribute="top" secondItem="uzU-35-sEs" secondAttribute="bottom" constant="9" id="Dud-37-jgi"/>
                             <constraint firstItem="O62-zR-hUR" firstAttribute="top" secondItem="Ff1-Mr-85c" secondAttribute="bottom" constant="126" id="FlT-Es-OaU"/>
@@ -169,10 +177,12 @@
                             <constraint firstItem="Ff1-Mr-85c" firstAttribute="top" secondItem="6Yx-Q0-AR6" secondAttribute="bottom" constant="117" id="PQY-mq-bcY"/>
                             <constraint firstItem="O62-zR-hUR" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="101" id="PVj-bi-oUu"/>
                             <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="O62-zR-hUR" secondAttribute="trailing" constant="101" id="Sqc-60-4Po"/>
+                            <constraint firstItem="tFF-pa-0Nw" firstAttribute="top" secondItem="Ff1-Mr-85c" secondAttribute="bottom" constant="40" id="Z9z-XH-8J2"/>
                             <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="uzU-35-sEs" secondAttribute="trailing" constant="41" id="ZW5-Tk-ohS"/>
                             <constraint firstItem="BLA-g3-Rxe" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="150" id="cg0-Z7-jZQ"/>
                             <constraint firstItem="BLA-g3-Rxe" firstAttribute="top" secondItem="O62-zR-hUR" secondAttribute="bottom" constant="60" id="dlM-Hh-z6W"/>
                             <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="BLA-g3-Rxe" secondAttribute="trailing" constant="150" id="gis-kk-Zab"/>
+                            <constraint firstItem="tFF-pa-0Nw" firstAttribute="leading" secondItem="HzL-tq-iEC" secondAttribute="leading" constant="130" id="hWI-TG-qu0"/>
                             <constraint firstItem="Ff1-Mr-85c" firstAttribute="top" secondItem="6Yx-Q0-AR6" secondAttribute="bottom" constant="117" id="hs8-Bu-M64"/>
                             <constraint firstItem="HzL-tq-iEC" firstAttribute="trailing" secondItem="6Yx-Q0-AR6" secondAttribute="trailing" constant="13" id="qLU-Z7-zEi"/>
                             <constraint firstItem="uzU-35-sEs" firstAttribute="top" secondItem="6Yx-Q0-AR6" secondAttribute="bottom" constant="39" id="tce-Nh-UpI"/>
@@ -181,6 +191,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="LyK-wb-J4W"/>
                     <connections>
+                        <outlet property="Description" destination="tFF-pa-0Nw" id="cv6-XO-0d0"/>
                         <outlet property="Shovel" destination="Ff1-Mr-85c" id="HO5-gI-PeR"/>
                     </connections>
                 </viewController>
