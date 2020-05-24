@@ -2012,6 +2012,9 @@
                                         <state key="normal" title="Metric System">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="Metric:" destination="60k-69-iD4" eventType="touchUpInside" id="uKT-K6-P1u"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArR-HQ-ZT0" userLabel="Commerical">
                                         <rect key="frame" x="0.0" y="110" width="374" height="60"/>
@@ -2019,6 +2022,9 @@
                                         <state key="normal" title="American System">
                                             <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="American:" destination="60k-69-iD4" eventType="touchUpInside" id="smf-eM-Jqx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -2035,26 +2041,39 @@
                                     <action selector="BackButton:" destination="60k-69-iD4" eventType="touchUpInside" id="xjS-lt-fMM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now in Feet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYe-Sm-a5v">
+                                <rect key="frame" x="30" y="544" width="354" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WYe-Sm-a5v" secondAttribute="trailing" constant="30" id="26P-PH-4yk"/>
                             <constraint firstItem="4Ue-pO-4nt" firstAttribute="trailing" secondItem="HJv-oZ-9gS" secondAttribute="trailing" constant="72" id="2VX-S6-Zz3"/>
                             <constraint firstItem="wQF-7Q-vKs" firstAttribute="top" secondItem="4UZ-F5-6xd" secondAttribute="bottom" constant="249" id="3bG-EQ-Wbm"/>
                             <constraint firstItem="HJv-oZ-9gS" firstAttribute="top" secondItem="4Ue-pO-4nt" secondAttribute="top" constant="106" id="6T9-Dp-Eq6"/>
                             <constraint firstItem="as4-1R-KFl" firstAttribute="leading" secondItem="4Ue-pO-4nt" secondAttribute="leading" constant="29" id="6Wh-1w-BE9"/>
+                            <constraint firstItem="wQF-7Q-vKs" firstAttribute="top" secondItem="WYe-Sm-a5v" secondAttribute="bottom" constant="113" id="95U-HO-Vsl"/>
                             <constraint firstItem="4Ue-pO-4nt" firstAttribute="trailing" secondItem="wQF-7Q-vKs" secondAttribute="trailing" constant="164" id="B2T-8T-db9"/>
                             <constraint firstItem="wQF-7Q-vKs" firstAttribute="leading" secondItem="4Ue-pO-4nt" secondAttribute="leading" constant="164" id="Dta-xL-h5y"/>
                             <constraint firstItem="HJv-oZ-9gS" firstAttribute="leading" secondItem="4Ue-pO-4nt" secondAttribute="leading" constant="72" id="ON1-C2-KCb"/>
                             <constraint firstItem="4UZ-F5-6xd" firstAttribute="leading" secondItem="4Ue-pO-4nt" secondAttribute="leading" constant="20" id="OW9-o3-zxs"/>
+                            <constraint firstItem="WYe-Sm-a5v" firstAttribute="top" secondItem="4UZ-F5-6xd" secondAttribute="bottom" constant="97" id="RGL-Fi-4Iq"/>
                             <constraint firstItem="as4-1R-KFl" firstAttribute="top" secondItem="4Ue-pO-4nt" secondAttribute="top" constant="20" id="dAR-zT-qg1"/>
                             <constraint firstItem="4UZ-F5-6xd" firstAttribute="top" secondItem="HJv-oZ-9gS" secondAttribute="bottom" constant="62" id="eCF-m2-qsb"/>
                             <constraint firstItem="4Ue-pO-4nt" firstAttribute="bottom" secondItem="wQF-7Q-vKs" secondAttribute="bottom" constant="106" id="h39-V6-NbG"/>
                             <constraint firstItem="4Ue-pO-4nt" firstAttribute="trailing" secondItem="4UZ-F5-6xd" secondAttribute="trailing" constant="20" id="r8V-UV-yTE"/>
+                            <constraint firstItem="WYe-Sm-a5v" firstAttribute="leading" secondItem="4Ue-pO-4nt" secondAttribute="leading" constant="30" id="sQy-4A-Tst"/>
                             <constraint firstItem="4Ue-pO-4nt" firstAttribute="trailing" secondItem="as4-1R-KFl" secondAttribute="trailing" constant="13" id="x3b-Ax-svo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Ue-pO-4nt"/>
                     </view>
                     <navigationItem key="navigationItem" id="Hzo-yo-2iZ"/>
+                    <connections>
+                        <outlet property="Units" destination="WYe-Sm-a5v" id="S5H-gK-Azh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPa-PC-kiA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

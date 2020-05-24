@@ -20,9 +20,16 @@ class SettingsViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
+    @IBOutlet weak var Units: UILabel!
+    @IBAction func Metric(_ sender: Any) {
+        Units.text = "Now in Meters"
+    }
+    
+    @IBAction func American(_ sender: Any) {
+        Units.text = "Now in Feet"
+    }
+    
+    /*// MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
