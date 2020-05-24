@@ -20,16 +20,19 @@ class GuideViewController: UIViewController {
     
     @IBAction func CasualButton(_ sender: Any) {
         Shovel.image = UIImage(named: "Shovel 1")
+        Description.text = "For those looking for a budgeting tool for their personal landscaping work"
     }
     
     @IBAction func CommercialButton(_ sender: Any) {
         Shovel.image = UIImage(named: "Shovel Cross")
+        Description.text = "For those looking for a tool to provide a quote for residential customers"
         
     }
     
     
     @IBAction func ProfessionalButton(_ sender: Any) {
         Shovel.image = UIImage(named: "Shovel Triple")
+        Description.text = "For those looking for a tool to provide a quote for their commerical enterpises"
         
     }
     
