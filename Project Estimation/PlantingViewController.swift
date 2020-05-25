@@ -19,8 +19,10 @@ class PlantingViewController: UIViewController {
     var medium = 0
     var large = 0
     var price = 0
+    
+    //The price is determined by multiplying the desired size tree by an industry average multiplier. This will ensure that our estimation will be within normal range.
     func getPrice(){
-      price = (small * 10) + (medium * 20) + (large * 30)
+        price = (small * 15.00) + (medium * 30.00) + (large * 45.00)
         PriceLabel.text = String(price)
     }
     @IBOutlet weak var PriceLabel: UILabel!
@@ -28,9 +30,10 @@ class PlantingViewController: UIViewController {
     @IBOutlet weak var MediumLabel: UILabel!
     @IBOutlet weak var LargeLabel: UILabel!
     @IBOutlet weak var SmallTextField: UITextField!
-    
     @IBOutlet weak var MediumTextField: UITextField!
     @IBOutlet weak var LargeTextField: UITextField!
+    
+    
     @IBAction func BackButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
