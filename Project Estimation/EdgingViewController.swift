@@ -15,26 +15,29 @@ class EdgingViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    var len = 0
-    
+    var length = 0
     var price = 0
-     @IBOutlet weak var PriceLabel: UILabel!
-        @IBOutlet weak var LengthLabel: UILabel!
+    
+    @IBOutlet weak var PriceLabel: UILabel!
+    @IBOutlet weak var LengthLabel: UILabel!
+    @IBOutlet weak var LengthTextField: UITextField!
+    
+    
+    @IBAction func BackButton(_ sender: Any) {
+           dismiss(animated: true, completion: nil)
+       }
+   
+    //The price is determined by multiplying the desired area by an industry average multiplier. This will ensure that our estimation will be within normal range.
     func getPrice(){
-        price = len * 50 //Dummy Multiplier
+        price = length * Int(1.25)
         PriceLabel.text = String(price)
     }
     
-
-    @IBAction func BackButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
-        @IBOutlet weak var LengthTextField: UITextField!
+    
     @IBAction func LengthEntered(_ sender: Any) {
          LengthLabel.text = LengthTextField.text
-                len = (LengthLabel.text! as NSString).integerValue
-                       if(len != 0){
-                           
+                length = (LengthLabel.text! as NSString).integerValue
+                       if(length != 0){
                            getPrice()
      }
      }
