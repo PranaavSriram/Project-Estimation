@@ -15,19 +15,22 @@ class SodRollViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    var len = 0
-       var area = 0
-       var width = 0
-       var price = 0
+    
+    var length = 0
+    var area = 0
+    var width = 0
+    var price = 0
+    
+    
        func getArea(){
            
-           area = len * width
+           area = length * width
            AreaLabel.text = String(area)
            
        }
-       
+       //The price is determined by multiplying the desired area by an industry average multiplier. This will ensure that our estimation will be within normal range.
        func getPrice(){
-           price = area * 50 //Dummy Multiplier
+        price = area * Int(1.35)
            PriceLabel.text = String(price)
        }
     
@@ -43,10 +46,12 @@ class SodRollViewController: UIViewController {
     @IBOutlet weak var LengthTextField: UITextField!
     
     @IBOutlet weak var WidthTextField: UITextField!
+    
+    
     @IBAction func WidthEntered(_ sender: Any) {
         WidthLabel.text = WidthTextField.text
          width = (WidthLabel.text! as NSString).integerValue
-        if(len != 0 && width != 0){
+        if(length != 0 && width != 0){
                    getArea()
                    getPrice()
                }
@@ -54,8 +59,8 @@ class SodRollViewController: UIViewController {
     }
     @IBAction func LengthEntered(_ sender: Any) {
         LengthLabel.text = LengthTextField.text
-               len = (LengthLabel.text! as NSString).integerValue
-                      if(len != 0 && width != 0){
+               length = (LengthLabel.text! as NSString).integerValue
+                      if(length != 0 && width != 0){
                           getArea()
                           getPrice()
     }

@@ -28,7 +28,7 @@ class MulchingViewController: UIViewController {
         
     }
     
-    //The price is determined by multiplying the desired area byan industry average multiplier. This will ensure that our estimation will be within normal range.
+    //The price is determined by multiplying the desired area by an industry average multiplier. This will ensure that our estimation will be within normal range.
     func getPrice(){
         price = area * Int(0.35) 
         PriceLabel.text = String(price)
