@@ -16,15 +16,19 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //Code for the Back Button
     @IBAction func BackButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
     @IBOutlet weak var Units: UILabel!
+    
+    //This function is intended to change the units of measurement into Metric measurments
     @IBAction func Metric(_ sender: Any) {
         Units.text = "Now in Meters"
     }
     
+    //This function is intended to change the units of measurement into American measurments
     @IBAction func American(_ sender: Any) {
         Units.text = "Now in Feet"
     }
