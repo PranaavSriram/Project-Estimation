@@ -22,7 +22,7 @@ class PlantingViewController: UIViewController {
     
     //The price is determined by multiplying the desired size tree by an industry average multiplier. This will ensure that our estimation will be within normal range.
     func getPrice(){
-        price = (small * 15.00) + (medium * 30.00) + (large * 45.00)
+        price = (small * 15) + (medium * 30) + (large * 45)
         PriceLabel.text = String(price)
     }
     @IBOutlet weak var PriceLabel: UILabel!

@@ -22,7 +22,7 @@ class BushRemovalViewController: UIViewController {
     
     //The price is determined by multiplying the desired bush size by an industry average multiplier. This will ensure that our estimation will be within normal range.
     func getPrice(){
-        price = (small * 17.50) + (medium * 35.00) + (large * 52.50)
+        price = (small * 17) + (medium * 35) + (large * 52)
         PriceLabel.text = String(price)
     }
     @IBOutlet weak var PriceLabel: UILabel!
