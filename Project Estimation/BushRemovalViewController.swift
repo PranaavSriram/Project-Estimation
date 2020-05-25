@@ -33,11 +33,12 @@ class BushRemovalViewController: UIViewController {
     @IBOutlet weak var MediumTextField: UITextField!
     @IBOutlet weak var LargeTextField: UITextField!
     
-    
+    //Code for the Back Button
     @IBAction func BackButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
+    //This function converts values entered as a string into the small text field into an integer value tp be represented in the small label
     @IBAction func SmallEntered(_ sender: Any) {
         SmallLabel.text = SmallTextField.text
         small = (SmallLabel.text! as NSString).integerValue
@@ -47,6 +48,7 @@ class BushRemovalViewController: UIViewController {
                }
     }
     
+    //This function converts values entered as a string into the medium text field into an integer value tp be represented in the medium label
     @IBAction func MediumEntered(_ sender: Any) {
         MediumLabel.text = MediumTextField.text
         medium = (MediumLabel.text! as NSString).integerValue
@@ -56,6 +58,7 @@ class BushRemovalViewController: UIViewController {
                }
     }
     
+    //This function converts values entered as a string into the large text field into an integer value tp be represented in the large label
     @IBAction func LargeEntered(_ sender: Any) {
         LargeLabel.text = LargeTextField.text
         large = (LargeLabel.text! as NSString).integerValue
