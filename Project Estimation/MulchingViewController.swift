@@ -15,13 +15,15 @@ class MulchingViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    var len = 0
+    var length = 0
     var area = 0
     var width = 0
     var price = 0
+    
+    //This function simply calculates the area
     func getArea(){
         
-        area = len * width
+        area = length * width
         AreaLabel.text = String(area)
         
     }
@@ -32,34 +34,34 @@ class MulchingViewController: UIViewController {
         PriceLabel.text = String(price)
     }
     
+     //Code for the Back Button
     @IBAction func BackButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
-    
-    
-   
     @IBOutlet weak var LengthLabel: UILabel!
-    
     @IBOutlet weak var WidthLabel: UILabel!
     @IBOutlet weak var PriceLabel: UILabel!
     @IBOutlet weak var AreaLabel: UILabel!
     @IBOutlet weak var LengthTextField: UITextField!
-    
     @IBOutlet weak var WidthTextField: UITextField!
+    
+    
+     //This function converts values entered as a string into the width text field into an integer value tp be represented in the width label
     @IBAction func WidthEntered(_ sender: Any) {
         WidthLabel.text = WidthTextField.text
          width = (WidthLabel.text! as NSString).integerValue
-        if(len != 0 && width != 0){
+        if(length != 0 && width != 0){
                    getArea()
                    getPrice()
                }
          
     }
+     //This function converts values entered as a string into the length text field into an integer value tp be represented in the length label
     @IBAction func LengthEntered(_ sender: Any) {
         LengthLabel.text = LengthTextField.text
-               len = (LengthLabel.text! as NSString).integerValue
-                      if(len != 0 && width != 0){
+               length = (LengthLabel.text! as NSString).integerValue
+                      if(length != 0 && width != 0){
                           getArea()
                           getPrice()
     }
@@ -73,5 +75,5 @@ class MulchingViewController: UIViewController {
     }
     */
 
-}
+    }
 }
