@@ -22,7 +22,7 @@ class EdgingViewController: UIViewController {
     @IBOutlet weak var LengthLabel: UILabel!
     @IBOutlet weak var LengthTextField: UITextField!
     
-    
+    //Code for the Back Button
     @IBAction func BackButton(_ sender: Any) {
            dismiss(animated: true, completion: nil)
        }
@@ -33,13 +33,13 @@ class EdgingViewController: UIViewController {
         PriceLabel.text = String(price)
     }
     
-    
+    //This function converts values entered as a string into the length text field into an integer value tp be represented in the length label
     @IBAction func LengthEntered(_ sender: Any) {
          LengthLabel.text = LengthTextField.text
                 length = (LengthLabel.text! as NSString).integerValue
                        if(length != 0){
                            getPrice()
-     }
+        }
      }
     /*
     // MARK: - Navigation
