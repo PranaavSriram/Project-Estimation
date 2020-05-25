@@ -29,7 +29,7 @@ class BrickLayingViewController: UIViewController {
     }
     
     func getPrice(){
-        price = area * 50 //Dummy Multiplier
+        price = area * Int(8.25)
         PriceLabel.text = String(price)
     }
     
